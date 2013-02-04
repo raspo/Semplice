@@ -1,0 +1,33 @@
+body{
+    
+}
+
+.wrap{
+
+}
+
+.header{
+    
+}
+
+.content{
+
+}
+
+@media #{$query-mobile}{
+    body{
+        
+    }
+}
+
+@media #{$query-narrow}{
+    .wrap{
+        
+    }
+}
+
+@media #{$query-wide}{
+    body{
+
+    }
+}

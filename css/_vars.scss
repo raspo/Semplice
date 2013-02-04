@@ -1,0 +1,8 @@
+// Media queries
+$break-mobile: 30em;
+$break-narrow: 48em;
+$break-wide: 64em;
+
+$query-mobile: "screen and (max-width: #{$break-mobile})";
+$query-narrow: "screen and (max-width: #{$break-narrow})";
+$query-wide: "screen and (min-width: #{$break-wide})";

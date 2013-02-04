@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: semplice
 Theme URI: http://thethemesite.com
 Author: AuthorName
@@ -6,3 +6,28 @@ Author URI: http://yoursite.com
 Description: This is a bare bone starting theme
 Version: 1.0
 */
+
+/**
+ * Naming conventions
+ *
+ * IDs
+ * #[category]_[element]
+ *
+ * Objects
+ * .[objectname]
+ * .[objectname]_[element]
+ *
+ * Object variations
+ * .[objectname]-variation
+ *
+ * Utils
+ * .s-[statusname]
+ */
+
+@import '_vars.scss';
+@import '_mixins.scss';
+@import '_reset.scss';
+@import '_utils.scss';
+@import '_typography.scss';
+@import '_layout.scss';
+@import '_objects.scss';

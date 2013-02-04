@@ -1,0 +1,15 @@
+@function em($target, $context){
+    @return ($target/$context)+0em;
+}
+
+@mixin respond-to($media) {
+  @if $media == mobile {
+    @media #{$query-mobile} { @content; }
+  }
+  @else if $media == narrow {
+    @media #{$query-narrow} { @content; }
+  }
+  @else if $media == wide {
+    @media #{$query-wide} { @content; }
+  }
+}

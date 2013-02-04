@@ -1,0 +1,22 @@
+.clear{
+    clear: both;
+}
+
+.cf{
+    zoom:1;
+    &:before,
+    &:after{
+        content:" ";
+        display:table;
+    }
+    &:after{
+        clear:both;
+    }
+}
+
+.animateBg{
+    -webkit-transition: background 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+}
